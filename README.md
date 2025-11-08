@@ -1,6 +1,6 @@
 ![Logo](cp.png)
 
-# Naimul Portfolio �
+# Naimul Portfolio
 
 Welcome to my personal portfolio website!  
 This site showcases my skills, projects, experience, and professional background in a clean and modern layout.
