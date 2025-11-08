@@ -37,20 +37,8 @@ window.addEventListener('scroll', () => {
   } else {
     backToTop.style.display = "none";
   }
-
-  revealElements.forEach(el => {
-    const windowHeight = window.innerHeight;
-    const elementTop = el.getBoundingClientRect().top;
-    const revealPoint = 150;
-
-    if(elementTop < windowHeight - revealPoint){
-      el.classList.add('active-reveal');
-    }
-  });
 });
 
-const revealElements = document.querySelectorAll('.home-container, .about-container, .projects-container, .services-container, .contact-content');
-revealElements.forEach(el => el.classList.add('reveal'));
 
 const backToTop = document.createElement('div');
 backToTop.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
